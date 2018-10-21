@@ -5,11 +5,15 @@ android {
     buildToolsVersion rootProject.buildToolsVersion
 
     defaultConfig {
-        applicationId "com.alperez.samples.animation"
+        applicationId "com.alperez.samples"
         minSdkVersion rootProject.minSdkVersion
         targetSdkVersion rootProject.targetSdkVersion
         versionCode 1
         versionName "1.0"
+    }
+
+    dataBinding {
+        enabled = true
     }
 
     buildTypes {
@@ -37,9 +41,15 @@ android {
 }
 
 dependencies {
+    implementation project(':utils')
+
     implementation "com.android.support:support-v4:${rootProject.supportLibVersion}"
     implementation "com.android.support:appcompat-v7:${rootProject.supportLibVersion}"
     implementation "com.android.support:design:${rootProject.supportLibVersion}"
     implementation "com.android.support:cardview-v7:${rootProject.supportLibVersion}"
     implementation "com.android.support:recyclerview-v7:${rootProject.supportLibVersion}"
+
+    compileOnly "com.google.auto.value:auto-value-annotations:1.6"
+    annotationProcessor "com.google.auto.value:auto-value:1.6"
+    annotationProcessor 'com.ryanharter.auto.value:auto-value-parcel:0.2.5'
 }
