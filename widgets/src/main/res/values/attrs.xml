@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="checkedStatePadding" format="dimension"/>
+
+    <declare-styleable name="AnimatedCheckableImageView">
+        <attr name="checkedStatePadding"/>
+    </declare-styleable>
+
+    <declare-styleable name="AnimatedCheckableFrameLayout">
+        <attr name="checkedStatePadding"/>
+    </declare-styleable>
+
+</resources>

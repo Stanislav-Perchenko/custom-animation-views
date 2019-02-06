@@ -14,5 +14,10 @@
     "subtitle": "Animation image shift",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "screenClassName": "????????"
+  },{
+  "title": "Animated Checkable",
+  "subtitle": "Animated checkable containers",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  "screenClassName": "com.alperez.samples.demoactivity.AnimatedCheckDemoActivity"
   }
 ]

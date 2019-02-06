@@ -42,6 +42,7 @@ android {
 
 dependencies {
     implementation project(':utils')
+    implementation project(':widgets')
 
     implementation "com.android.support:support-v4:${rootProject.supportLibVersion}"
     implementation "com.android.support:appcompat-v7:${rootProject.supportLibVersion}"
