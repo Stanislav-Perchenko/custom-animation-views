@@ -1,6 +1,7 @@
 package com.alperez.widget;
 
 import android.support.annotation.IntDef;
+import android.support.annotation.NonNull;
 import android.widget.Checkable;
 
 import java.lang.annotation.Retention;
@@ -26,4 +27,20 @@ public interface AnimatedCheckable extends Checkable {
     @AnimatedCheckableState
     int getCheckedState();
 
+    /**
+     * Change the checked state of the view to the inverse of its current state
+     * with animation
+     */
+    void animatedToggle();
+
+    /**
+     * Change the checked state of the view with animation
+     *
+     * @param checked The new checked state
+     */
+    void setCheckedAnimated(boolean checked);
+
+    void addOnCheckedChangeListener(@NonNull OnCheckedChangeListener listener);
+
+    void removeOnCheckedChangeListener(@NonNull OnCheckedChangeListener listener);
 }

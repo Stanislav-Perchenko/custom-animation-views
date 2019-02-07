@@ -25,7 +25,7 @@
         android:orientation="horizontal"
         android:layout_weight="0"
         android:gravity="center_vertical">
-        <TextView
+        <TextView android:id="@+id/action_toggle_fl_no_anim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -39,7 +39,7 @@
             android:layout_height="1dp"
             android:layout_weight="1"/>
 
-        <com.alperez.widget.customlayout.AnimatedCheckableFrameLayout
+        <com.alperez.widget.customlayout.AnimatedCheckableFrameLayout android:id="@+id/animated_frame"
             android:layout_width="128dp"
             android:layout_height="128dp"
             app:checkedStatePadding="16dp"
@@ -50,7 +50,7 @@
             android:layout_height="1dp"
             android:layout_weight="1"/>
 
-        <TextView
+        <TextView android:id="@+id/action_toggle_fl_with_anim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -71,7 +71,7 @@
         android:orientation="horizontal"
         android:layout_weight="0"
         android:gravity="center_vertical">
-        <TextView
+        <TextView android:id="@+id/action_toggle_iv_no_anim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"
@@ -85,10 +85,13 @@
             android:layout_height="1dp"
             android:layout_weight="1"/>
 
-        <com.alperez.widget.AnimatedCheckableImageView
+        <com.alperez.widget.AnimatedCheckableImageView android:id="@+id/animated_image"
             android:layout_width="128dp"
             android:layout_height="128dp"
             app:checkedStatePadding="16dp"
+            app:anim_duration="1000"
+            android:scaleType="centerCrop"
+            android:src="@drawable/sample_image"
             android:background="#D5D5D5"/>
 
         <Space
@@ -96,7 +99,7 @@
             android:layout_height="1dp"
             android:layout_weight="1"/>
 
-        <TextView
+        <TextView android:id="@+id/action_toggle_iv_with_anim"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="0"

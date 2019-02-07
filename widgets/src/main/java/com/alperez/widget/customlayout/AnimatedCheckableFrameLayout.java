@@ -11,6 +11,7 @@ import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
 import com.alperez.widget.AnimatedCheckable;
+import com.alperez.widget.OnCheckedChangeListener;
 import com.alperez.widget.R;
 
 /**
@@ -80,7 +81,25 @@ public class AnimatedCheckableFrameLayout extends FrameLayout implements Animate
         //TODO Implement this !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     }
 
+    @Override
+    public void animatedToggle() {
+        //TODO Implement this !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    }
 
+    @Override
+    public void setCheckedAnimated(boolean checked) {
+        //TODO Implement this !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    }
+
+    @Override
+    public void addOnCheckedChangeListener(@NonNull OnCheckedChangeListener listener) {
+        //TODO Implement this !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    }
+
+    @Override
+    public void removeOnCheckedChangeListener(@NonNull OnCheckedChangeListener listener) {
+        //TODO Implement this !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+    }
 
     private void assertUiThread() {
         if (Thread.currentThread().getId() != Looper.getMainLooper().getThread().getId()) {
