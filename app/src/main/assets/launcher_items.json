@@ -15,9 +15,14 @@
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "screenClassName": "????????"
   },{
-  "title": "Animated Checkable",
-  "subtitle": "Animated checkable containers",
-  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-  "screenClassName": "com.alperez.samples.demoactivity.AnimatedCheckDemoActivity"
+    "title": "Animated Checkable",
+    "subtitle": "Animated checkable containers",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    "screenClassName": "com.alperez.samples.demoactivity.AnimatedCheckDemoActivity"
+  },{
+    "title": "Ripple Checkable",
+    "subtitle": "Ripple background with checkable",
+    "description": "This is the demonstration of using RippleDrawable XML resource with checkable selector drawable inside. All colors and drawable shape are fully customizable.",
+    "screenClassName": "com.alperez.samples.demoactivity.CheckableRippleBackgroundDemoActivity"
   }
 ]
